@@ -60,7 +60,6 @@ body {
 .header-list {
 	gap: 50px;
 }
-
 .header-link.current{
 	position: relative;
 
@@ -77,7 +76,9 @@ background-color: var(--active-link-color);
 border-radius: 2px;
 }
 
-
+.header-link:hover{
+	color: #2196F3; 
+}
 
 
 .header-list-contacts {
